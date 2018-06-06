@@ -2409,6 +2409,12 @@ a:focus {
 .alert-info {
   border-color: #00acd6;
 }
+.alert-livexp {
+  border-color: #00897e;
+}
+.alert-netxp {
+  border-color: #081a27;
+}
 /*
  * Component: Nav
  * --------------
@@ -4393,6 +4399,8 @@ table.text-center th {
 .bg-purple,
 .bg-maroon,
 .bg-black,
+.bg-livexp,
+.bg-netxp,
 .bg-red-active,
 .bg-yellow-active,
 .bg-aqua-active,
@@ -4408,6 +4416,8 @@ table.text-center th {
 .bg-purple-active,
 .bg-maroon-active,
 .bg-black-active,
+.bg-livexp-active,
+.bg-netxp-active,
 .callout.callout-danger,
 .callout.callout-warning,
 .callout.callout-info,
@@ -4417,6 +4427,8 @@ table.text-center th {
 .alert-error,
 .alert-warning,
 .alert-info,
+.alert-livexp,
+.alert-netxp,
 .label-danger,
 .label-info,
 .label-warning,
@@ -4510,10 +4522,12 @@ table.text-center th {
 .bg-maroon {
   background-color: #d81b60 !important;
 }
-.bg-livexp {
+.bg-livexp,
+.alert-livexp {
   background-color: #00a295 !important;
 }
-.bg-netxp {
+.bg-netxp,
+.alert-netxp {
   background-color: #0c283c !important;
 }
 .bg-gray-active {
