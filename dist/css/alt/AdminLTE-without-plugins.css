@@ -3538,6 +3538,9 @@ table.text-center th {
 .bg-livexp {
   background-color: #00a295 !important;
 }
+.bg-netxp {
+  background-color: #0c283c !important;
+}
 .bg-gray-active {
   color: #000;
   background-color: #b5bbc8 !important;
@@ -3600,6 +3603,9 @@ table.text-center th {
 .bg-livexp-active {
   background-color: #009387 !important;
 }
+.bg-netxp-active {
+  background-color: #091f2f !important;
+}
 [class^="bg-"].disabled {
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -3654,6 +3660,9 @@ table.text-center th {
 }
 .text-livexp {
   color: #00a295 !important;
+}
+.text-netxp {
+  color: #0c283c !important;
 }
 .link-muted {
   color: #7a869d;
@@ -3813,6 +3822,15 @@ table.text-center th {
   background: -moz-linear-gradient(center bottom, #00a295 0%, #00d5c4 100%) !important;
   background: -o-linear-gradient(#00d5c4, #00a295) !important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00d5c4', endColorstr='#00a295', GradientType=0) !important;
+  color: #fff;
+}
+.bg-netxp-gradient {
+  background: #0c283c !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #0c283c), color-stop(1, #154466)) !important;
+  background: -ms-linear-gradient(bottom, #0c283c, #154466) !important;
+  background: -moz-linear-gradient(center bottom, #0c283c 0%, #154466 100%) !important;
+  background: -o-linear-gradient(#154466, #0c283c) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#154466', endColorstr='#0c283c', GradientType=0) !important;
   color: #fff;
 }
 .description-block .description-icon {
