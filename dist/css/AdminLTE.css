@@ -2415,6 +2415,9 @@ a:focus {
 .alert-netxp {
   border-color: #081a27;
 }
+.alert-ticketing {
+  border-color: #369298;
+}
 /*
  * Component: Nav
  * --------------
@@ -4530,6 +4533,11 @@ table.text-center th {
 .alert-netxp {
   background-color: #0c283c !important;
 }
+.bg-ticketing,
+.alert-ticketing {
+  background-color: #3da4ab !important;
+  color: #FFF;
+}
 .bg-gray-active {
   color: #000;
   background-color: #b5bbc8 !important;
@@ -4595,6 +4603,9 @@ table.text-center th {
 .bg-netxp-active {
   background-color: #091f2f !important;
 }
+.bg-ticketing-active {
+  background-color: #3999a0 !important;
+}
 [class^="bg-"].disabled {
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -4652,6 +4663,9 @@ table.text-center th {
 }
 .text-netxp {
   color: #0c283c !important;
+}
+.text-ticketing {
+  color: #3da4ab !important;
 }
 .link-muted {
   color: #7a869d;
@@ -4820,6 +4834,15 @@ table.text-center th {
   background: -moz-linear-gradient(center bottom, #0c283c 0%, #154466 100%) !important;
   background: -o-linear-gradient(#154466, #0c283c) !important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#154466', endColorstr='#0c283c', GradientType=0) !important;
+  color: #fff;
+}
+.bg-ticketing-gradient {
+  background: #3da4ab !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #3da4ab), color-stop(1, #58bcc3)) !important;
+  background: -ms-linear-gradient(bottom, #3da4ab, #58bcc3) !important;
+  background: -moz-linear-gradient(center bottom, #3da4ab 0%, #58bcc3 100%) !important;
+  background: -o-linear-gradient(#58bcc3, #3da4ab) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58bcc3', endColorstr='#3da4ab', GradientType=0) !important;
   color: #fff;
 }
 .description-block .description-icon {

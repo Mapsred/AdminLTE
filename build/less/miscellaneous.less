@@ -162,6 +162,11 @@
   background-color: @netxp !important;
 }
 
+.bg-ticketing {
+  background-color: @ticketing !important;
+  color: #FFF;
+}
+
 //Set of Active Background Colors
 .bg-gray-active {
   color: #000;
@@ -234,6 +239,10 @@
 
 .bg-netxp-active {
   background-color: darken(@netxp , 3%) !important;
+}
+
+.bg-ticketing-active {
+  background-color: darken(@ticketing , 3%) !important;
 }
 
 //Disabled!
@@ -312,6 +321,10 @@
 
 .text-netxp {
   color: @netxp !important;
+}
+
+.text-ticketing {
+  color: @ticketing !important;
 }
 
 .link-muted {
@@ -452,6 +465,11 @@
 
 .bg-netxp-gradient {
   .gradient(@netxp; @netxp; lighten(@netxp, 10%)) !important;
+  color: #fff;
+}
+
+.bg-ticketing-gradient {
+  .gradient(@ticketing; @ticketing; lighten(@ticketing, 10%)) !important;
   color: #fff;
 }
 
