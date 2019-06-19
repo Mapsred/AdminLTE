@@ -65,6 +65,7 @@
 .bg-black,
 .bg-livexp,
 .bg-netxp,
+.bg-rampar,
 .bg-red-active,
 .bg-yellow-active,
 .bg-aqua-active,
@@ -81,7 +82,8 @@
 .bg-maroon-active,
 .bg-black-active,
 .bg-livexp-active,
-.bg-netxp-active {
+.bg-netxp-active,
+.bg-rampar-active {
   color: #fff !important;
 }
 
@@ -167,6 +169,10 @@
   color: #FFF;
 }
 
+.bg-rampar {
+  background-color: @rampar !important;
+}
+
 //Set of Active Background Colors
 .bg-gray-active {
   color: #000;
@@ -243,6 +249,10 @@
 
 .bg-ticketing-active {
   background-color: darken(@ticketing , 3%) !important;
+}
+
+.bg-rampar-active {
+  background-color: darken(@rampar , 3%) !important;
 }
 
 //Disabled!
@@ -325,6 +335,10 @@
 
 .text-ticketing {
   color: @ticketing !important;
+}
+
+.text-rampar {
+  color: @rampar !important;
 }
 
 .link-muted {
@@ -470,6 +484,11 @@
 
 .bg-ticketing-gradient {
   .gradient(@ticketing; @ticketing; lighten(@ticketing, 10%)) !important;
+  color: #fff;
+}
+
+.bg-rampar-gradient {
+  .gradient(@rampar; @rampar; lighten(@rampar, 10%)) !important;
   color: #fff;
 }
 

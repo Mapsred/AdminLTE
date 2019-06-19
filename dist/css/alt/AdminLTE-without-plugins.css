@@ -2418,6 +2418,9 @@ a:focus {
 .alert-ticketing {
   border-color: #369298;
 }
+.alert-rampar {
+  border-color: #4ec4c2;
+}
 /*
  * Component: Nav
  * --------------
@@ -3429,6 +3432,7 @@ table.text-center th {
 .bg-black,
 .bg-livexp,
 .bg-netxp,
+.bg-rampar,
 .bg-red-active,
 .bg-yellow-active,
 .bg-aqua-active,
@@ -3446,6 +3450,7 @@ table.text-center th {
 .bg-black-active,
 .bg-livexp-active,
 .bg-netxp-active,
+.bg-rampar-active,
 .callout.callout-danger,
 .callout.callout-warning,
 .callout.callout-info,
@@ -3457,6 +3462,7 @@ table.text-center th {
 .alert-info,
 .alert-livexp,
 .alert-netxp,
+.alert-rampar,
 .label-danger,
 .label-info,
 .label-warning,
@@ -3563,6 +3569,10 @@ table.text-center th {
   background-color: #3da4ab !important;
   color: #FFF;
 }
+.bg-rampar,
+.alert-rampar {
+  background-color: #61cac9 !important;
+}
 .bg-gray-active {
   color: #000;
   background-color: #b5bbc8 !important;
@@ -3631,6 +3641,9 @@ table.text-center th {
 .bg-ticketing-active {
   background-color: #3999a0 !important;
 }
+.bg-rampar-active {
+  background-color: #56c6c5 !important;
+}
 [class^="bg-"].disabled {
   opacity: 0.65;
   filter: alpha(opacity=65);
@@ -3691,6 +3704,9 @@ table.text-center th {
 }
 .text-ticketing {
   color: #3da4ab !important;
+}
+.text-rampar {
+  color: #61cac9 !important;
 }
 .link-muted {
   color: #7a869d;
@@ -3868,6 +3884,15 @@ table.text-center th {
   background: -moz-linear-gradient(center bottom, #3da4ab 0%, #58bcc3 100%) !important;
   background: -o-linear-gradient(#58bcc3, #3da4ab) !important;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#58bcc3', endColorstr='#3da4ab', GradientType=0) !important;
+  color: #fff;
+}
+.bg-rampar-gradient {
+  background: #61cac9 !important;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(0, #61cac9), color-stop(1, #87d7d6)) !important;
+  background: -ms-linear-gradient(bottom, #61cac9, #87d7d6) !important;
+  background: -moz-linear-gradient(center bottom, #61cac9 0%, #87d7d6 100%) !important;
+  background: -o-linear-gradient(#87d7d6, #61cac9) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#87d7d6', endColorstr='#61cac9', GradientType=0) !important;
   color: #fff;
 }
 .description-block .description-icon {

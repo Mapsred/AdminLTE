@@ -86,6 +86,7 @@ module.exports = function (grunt) { // jshint ignore:line
           'dist/css/skins/skin-livexp.css'      : 'build/less/skins/skin-livexp.less',
           'dist/css/skins/skin-netxp.css'      : 'build/less/skins/skin-netxp.less',
           'dist/css/skins/skin-ticketing.css'      : 'build/less/skins/skin-ticketing.less',
+          'dist/css/skins/skin-rampar.css'      : 'build/less/skins/skin-rampar.less',
           'dist/css/skins/_all-skins.css'       : 'build/less/skins/_all-skins.less'
         }
       },
@@ -110,6 +111,7 @@ module.exports = function (grunt) { // jshint ignore:line
           'dist/css/skins/skin-livexp.min.css'      : 'build/less/skins/skin-livexp.less',
           'dist/css/skins/skin-netxp.min.css'      : 'build/less/skins/skin-netxp.less',
           'dist/css/skins/skin-ticketing.min.css'      : 'build/less/skins/skin-ticketing.less',
+          'dist/css/skins/skin-rampar.min.css'      : 'build/less/skins/skin-rampar.less',
           'dist/css/skins/_all-skins.min.css'       : 'build/less/skins/_all-skins.less'
         }
       }
